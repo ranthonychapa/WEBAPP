@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Comic Con 2026 - Registration</title>
+	<link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <h1>Comic Con 2026</h1>
+        <img src="https://images.template.net/444305/Comic-Con-Logo-Clipart-edit-online.png" alt="Comic Con 2026 Banner">
+    </header>
+	<nav class= "nav">
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#contact">Contact</a></li>
+		  </ul>
+	</nav>
+    <main>
+        <section class="event-schedule">
+            <h2>Event Schedule</h2>
+            <p><strong>Date:</strong> February 27, 2026 | <strong>Time:</strong> 12:00 PM - 8:00 PM</p>
+           
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Speaker/Guest</th>
+                        <th>Event</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>12:00 PM - 1:00 PM</td>
+                        <td>Vic Mignogna</td>
+                        <td>GOAT VA - Voice Acting Masterclass</td>
+                    </tr>
+                    <tr>
+                        <td>1:15 PM - 2:15 PM</td>
+                        <td>Matt Mercer</td>
+                        <td>Legendary DM - The Art of Dungeon Mastering</td>
+                    </tr>
+                    <tr>
+                        <td>2:30 PM - 3:30 PM</td>
+                        <td>Kevin Feige</td>
+                        <td>MCU - Future of Marvel Cinematic Universe</td>
+                    </tr>
+                    <tr>
+                        <td>3:45 PM - 4:45 PM</td>
+                        <td>Toyotarou</td>
+                        <td>Dragon Ball - Creating Legendary Manga and Continuing Legacy</td>
+                    </tr>
+                    <tr>
+                        <td>5:00 PM - 6:00 PM</td>
+                        <td>James Gunn</td>
+                        <td>DCU - The New Era of DC Universe</td>
+                    </tr>
+                    <tr>
+                        <td>6:15 PM - 7:00 PM</td>
+                        <td>Chris Cocks</td>
+                        <td>WOTC CEO - Future of Tabletop Gaming</td>
+                    </tr>
+                    <tr>
+                        <td>7:15 PM - 8:00 PM</td>
+                        <td>Todd Howard</td>
+                        <td>Bethesda - Behind the Scenes of Game Development</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="guest-showcase">
+            <h2>Featured Guests</h2>
+            <div class="guest-images">
+                <img src="https://tse2.mm.bing.net/th/id/OIP.4yvLcZDnzP9Dj7HcSwGjPQHaFu?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Vic Mignogna - Voice Actor">
+                <img src="https://www.blumvoxstudios.com/wp-content/uploads/2020/12/Matthew-Mercer-Guest-980x551.jpg" alt="Matt Mercer - Dungeon Master">
+                <img src="https://images.thedirect.com/media/article_full/8D69D05E-DF90-4C66-82C7-A74BA9EC2F85.jpg" alt="Kevin Feige - Marvel Studios">
+                <img src="https://i.ytimg.com/vi/MwycRUqMtlo/maxresdefault.jpg" alt="Toyotarou - Dragon Ball Artist">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1opRm4.img?w=1400&h=700&m=4&q=79" alt="James Gunn - DC Studios">
+                <img src="https://media.gettyimages.com/id/1476977559/fr/photo/los-angeles-california-chris-cocks-ceo-of-hasbro-attends-the-los-angeles-premiere-of.jpg?s=612x612&w=gi&k=20&c=xKqIGKnuL8E8_I12Jjz1Hj2BpvDHNWrYbwNaNy6X83c=" alt="Chris Cocks - WOTC CEO">
+                <img src="https://fwmedia.fandomwire.com/wp-content/uploads/2024/12/27134227/bethesda-todd-howard.jpg" alt="Todd Howard - Bethesda">
+            </div>
+        </section>
+
+        <section class="registration-section">
+            <h2>Event Registration</h2>
+            
+            <form action="registration-form" method="post">
+                <div class="form-group">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email-address">Email Address:</label>
+                    <input type="email" id="email-address" name="email-address" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone-number">Phone Number:</label>
+                    <input type="tel" id="phone-number" name="phone-number">
+                </div>
+
+                <div class="form-group">
+                    <label for="ticket-type">Ticket Type:</label>
+                    <select id="ticket-type" name="ticket-type" required>
+                        <option value="">-- Select Ticket Type --</option>
+                        <option value="general-admission">General Admission - $50</option>
+                        <option value="vip-pass">VIP Pass - $150</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="submit-button">Submit Registration</button>
+            </form>
+        </section>
+    </main>
+
+    <footer id="main-footer">
+        <div class="footer-content">
+            <h3>Contact Information</h3>
+            <p><strong>Email:</strong> <a href="mailto:CC2026@jbu.edu">CC2026@jbu.edu</a></p>
+            <p><strong>Phone:</strong> (479) 123-4567</p>
+            <p><strong>Address:</strong> 4880 Cedar Dr, West Siloam Springs, OK 74338</p>
+            <p><strong>Follow Us:</strong> @JBUCC2026 on all social media platforms</p>
+            <p>&copy; 2026 JBU Comic Con. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
