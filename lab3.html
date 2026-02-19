@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Labwork 3</title>
+	<link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <h1>Interactive Student Management System</h1>
+    </header>
+    <main>
+        <section class="Studenttable">
+            <h2>Students</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+						<th>ID</th>
+                        <th>Student</th>
+                        <th>Age</th>
+						<th>Course</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tony Chapa</td>
+                        <td>26</td>
+                    </tr>
+                    <tr>
+                        <td>Rylan Vannaman</td>
+                        <td>21</td>
+                    </tr>
+                    <tr>
+                        <td>Mason Ehlers</td>
+                        <td>23</td>
+                    </tr>
+                    <tr>
+                        <td>Lety Echavarria</td>
+                        <td>28</td>
+                    </tr>
+                    <tr>
+                        <td>Kayla Breeden</td>
+                        <td>24</td>
+                    </tr>
+                    <tr>
+                        <td>Isaac Gary</td>
+                        <td>23</td>
+                    </tr>
+                    <tr>
+                        <td>David Camacho</td>
+                        <td>22</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="registration-section">
+            <h2>Student Registration</h2>
+            
+            <form action="registration-form" method="post">
+                <div class="form-group">
+                    <label for="first-name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email-address">Age:</label>
+                    <input type="email" id="email-address" name="email-address" required>
+                </div>
+                <div class="form-group">
+                    <label for="ticket-type">Ticket Type:</label>
+                    <select id="ticket-type" name="ticket-type" required>
+                        <option value="">-- Select Ticket Type --</option>
+                        <option value="general-admission">General Admission - $50</option>
+                        <option value="vip-pass">VIP Pass - $150</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="submit-button">Submit Registration</button>
+            </form>
+        </section>
+    </main>
+
+    <footer id="main-footer">
+        <div class="footer-content">
+            <h3>Contact Information</h3>
+            <p><strong>Email:</strong> <a href="mailto:CC2026@jbu.edu">CC2026@jbu.edu</a></p>
+            <p><strong>Phone:</strong> (479) 123-4567</p>
+            <p><strong>Address:</strong> 4880 Cedar Dr, West Siloam Springs, OK 74338</p>
+            <p><strong>Follow Us:</strong> @JBUCC2026 on all social media platforms</p>
+            <p>&copy; 2026 JBU Comic Con. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
